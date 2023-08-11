@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#file-upload-btn {
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid #bebebe;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    min-height: 30px;
+    min-width: 140px;
+    outline: none;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300mx cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+#file-upload-btn:disabled {
+    pointer-events: none;
+}
+
+#file-upload-btn:hover {
+    color: #fff;
+    background-color: #c0c0c0;
+    box-shadow: rgba(78, 78, 78, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+#file-upload-btn:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.or {
+    margin: 5px 0;
+}
+
+#drop-area {
+    border: 2px dashed #ccc;
+    padding: 25px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+#drop-area.drop-hover {
+    border: 2px dashed #e0cae2;
+    background-color: #e4d6e1;
+    box-shadow: 0 0 10px rgba(150, 141, 150, 0.5);
+}
