@@ -86,3 +86,12 @@ body {
     background-color: #e4d6e1;
     box-shadow: 0 0 10px rgba(150, 141, 150, 0.5);
 }
+
+#drop-area-text {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: normal;
+    margin: 0;
+    text-align: center;
+    color: #999;
+}
